@@ -1,33 +1,34 @@
-Time Travel Simulator – Python Project
-This is a Python project built during my learning process.
-It simulates a fictional time travel booking system that generates a travel destination, year, and cost dynamically.
+# Time Travel Quote Generator – Python Project
 
-What does the program do?
-Gets the current date and time and formats it.
+This is a Python project built during my learning process.  
+It simulates a fictional time travel agency by generating a travel quote based on year, destination, and cost.
 
-Randomly selects a year between 1500 and 3000 as the target travel year.
+---
 
-Picks a destination from a predefined list.
+## What does the program do?
 
-Calculates the cost of the trip based on the distance in years from the present.
+* Gets the current date and time  
+* Randomly selects a target year between 1500 and 3000  
+* Chooses a fictional destination from a preset list  
+* Calculates the price based on year difference and cost multiplier  
+* Formats the total cost using `Decimal` for precision  
+* Generates and prints a formatted message using a custom module  
 
-Formats the final cost using the Decimal module to ensure precision.
+---
 
-Uses a custom module to generate a formatted travel message.
+## Technologies used
 
-Technologies used
-Python 3
+* Python 3  
+* Built-in modules: `datetime`, `random`, `decimal`  
+* External custom module with reusable functions  
+* String formatting with `f-strings`  
+* Random selection with `randint` and `choice`  
+* Date and time formatting  
+* Arithmetic operations and type casting  
 
-datetime module for current time
+---
 
-decimal.Decimal for accurate currency calculation
+## Status
 
-random module (randint, choice) for randomness
-
-Custom module (custom_module.py) with external function
-
-String formatting with f-strings
-
-Status
-Completed
+Completed  
 Part of my beginner Python training projects
